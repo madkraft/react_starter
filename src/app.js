@@ -1,4 +1,4 @@
-import styles from './styles/main.styl'
+require('./styles/main.styl')
 
 document.write('Hello')
 console.log('Hello again')

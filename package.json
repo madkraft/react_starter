@@ -18,7 +18,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "hjs-webpack": "^8.3.0"
+    "hjs-webpack": "^8.3.0",
+    "react": "^15.3.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.4.0",
@@ -26,10 +27,13 @@
     "babel-core": "^6.13.2",
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-react-hmre": "^1.1.1",
     "css-loader": "^0.23.1",
     "file-loader": "^0.9.0",
     "json-loader": "^0.5.4",
     "postcss-loader": "^0.10.1",
+    "react-dom": "^15.3.1",
     "standard": "^8.0.0-beta.5",
     "style-loader": "^0.13.1",
     "stylus-loader": "^2.3.1",
