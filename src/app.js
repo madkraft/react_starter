@@ -1,11 +1,6 @@
 require('./styles/main.styl')
 import React from 'react'
-import ReactDOM from 'react-dom'
+import {render} from 'react-dom'
+import Hello from './Hello'
 
-const Hello = React.createClass({
-  render () {
-    return <div>Hello World!</div>
-  }
-})
-
-ReactDOM.render(<Hello />, document.body)
+render(<Hello />, document.getElementById('root'))
