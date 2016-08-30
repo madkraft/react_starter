@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "hjs-dev-server",
-    "build": "webpack",
+    "build": "rm -r public && NODE_ENV=production webpack",
     "deploy": "npm run build && surge -p public -d somedomain.com",
     "test": "standard",
-    "yolo": "npm run test && npm version minor && git push origin master --tags && npm run build && npm run deploy"
+    "yolo": "git add --all && git commit -am \"$(date)\" && npm version minor && git push origin master --tags"
   },
   "standard": {
     "ignore": [
